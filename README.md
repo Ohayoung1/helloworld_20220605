@@ -4,7 +4,7 @@
 ---
 :point_right: __실행화면__ 
 
-![다운로드 (1)](https://user-images.githubusercontent.com/104743690/171988366-66d73c56-0a4f-413a-8318-f5c84e638d5e.png)
+![image](https://user-images.githubusercontent.com/104743690/171988366-66d73c56-0a4f-413a-8318-f5c84e638d5e.png)
 
 | top 출력정보||||
 |:---:|:---:|:---:|:---:|
@@ -43,7 +43,7 @@
 
 :point_right:  __실행화면__ 
 
-![ps](https://user-images.githubusercontent.com/104743690/171987771-15634b7d-e37c-48c1-b482-19aa1854a912.PNG)
+![image](https://user-images.githubusercontent.com/104743690/171987771-15634b7d-e37c-48c1-b482-19aa1854a912.PNG)
 
 * `PID` : 프로세스 번호
 
@@ -79,7 +79,7 @@
 
 `-x` : 터미널 제어 없이 프로세스 현황 보기 / 실시간으로 터미널에 프로세스가 어떻게 변하는지 보여줌
 
-![캡처](https://user-images.githubusercontent.com/104743690/171989250-f38fabe8-de39-4f0c-a6ca-b67c2bbdb820.PNG)
+![image](https://user-images.githubusercontent.com/104743690/171989250-f38fabe8-de39-4f0c-a6ca-b67c2bbdb820.PNG)
 
 ### :heavy_check_mark: job : 작업의 상태 표시
 ---
@@ -93,7 +93,7 @@
 
 :point_right: __실행화면__ 
 
-![캡처](https://user-images.githubusercontent.com/104743690/171989930-1ac54fba-39cf-49f0-992b-922bcaf9f8cf.PNG)
+![image](https://user-images.githubusercontent.com/104743690/171989930-1ac54fba-39cf-49f0-992b-922bcaf9f8cf.PNG)
 
 |job의 출력상태||
 |:---:|:---:|
@@ -133,35 +133,35 @@
 
 'signal number' or '옵션'을 지정하지 않으면 기본적으로 작업종료로 사용한다.
 
-![캡처](https://user-images.githubusercontent.com/104743690/171989377-53363431-29de-4781-9de2-c996f3c71c24.PNG)
+![image](https://user-images.githubusercontent.com/104743690/171989377-53363431-29de-4781-9de2-c996f3c71c24.PNG)
 
 
-###  vim 에디터 매크로 사용법
+### :ballot_box_with_check: vim 에디터 매크로 사용법
 ---
 
 - 사전 조건 : \[Normal/Command 모드\]
 - 매크로가 저장될 register 주소(매크로명) = a ~ z 사용 가능.
 
-#### **매크로 기록**
+### :small_blue_diamond: **매크로 기록**
 
 **명령어 형태: q <저장할 매크로명>**
 
-**동작 수행 **
-
+**동작 수행**
+```
 * qA -> 매크로 작성 -> q (A 문자에매크로 내용 기록)
 * q로 시작해서 q로 끝남.
-
+```
 레코딩 끝난 후 기록된 내용을 보려면 **reg**명령어 이용. 
-`ex) :reg A`
+ex) `:reg A`
 
-#### **매크로 실행**
+### :small_blue_diamond: **매크로 실행**
 1) 특정 문자에 저장한 매크로 실행   **@ \< 저장한 매크로 문자\ >**
 2) 매크로 반복실행   **반복횟수@ \< 저장한 매크로 문자\ >**
 3) 마지막에 수행한 매크로 실행   **@@**
 
-`ex) 3qA #3회 반복 실행`
+ex) `3qA  #3회 반복 실행`
 
-#### **매크로 편집**
+### :small_blue_diamond: **매크로 편집**
 * 현재 커서 위치에 기록된 매크로 내용 표시.
 
 ` "Ap `
@@ -170,7 +170,7 @@
 
 `"Ayy `
 
-#### **매크로 저장**
+### :small_blue_diamond: **매크로 저장**
 
 작성한 매크로를 저장해서 계속 재사용하기 위해 보통 VIM설정 파일에 기록해 둔다.
 
