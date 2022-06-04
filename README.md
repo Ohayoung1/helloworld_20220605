@@ -85,9 +85,35 @@
 ---
 #### __jobs \[option\] \[PID\]__
 
-#####**작업이 중지된 상태 or 백그라운드로 실행되는 작업을 보여주는 명령어**
+##### **작업이 중지된 상태 or 백그라운드로 실행되는 작업을 보여주는 명령어**
 
+:point_right: __특징__
+ * 각각의 터미널 마다 jobs는 따로 존재
+ * jobs 또한 kill을 통해 종료 가능
 
+:point_right: __실행화면__ 
+
+![캡처](https://user-images.githubusercontent.com/104743690/171989930-1ac54fba-39cf-49f0-992b-922bcaf9f8cf.PNG)
+
+|job의 출력상태||
+|:---:|:---:|
+| Running | 작업이 계속 진행중임 |
+| Done |  작업이 완료되어 0을 반환 |
+| Stopped | 작업이 일시 중단 |
+| Stopped (SIGTSTP or SIGSTOP or SIGTTIN or SIGTTOU) | (....) 시그널이 작업을 일시 중단 |
+
+* `jobs %(번호)` :  해당번호 작업정보 출력
+* `+` : 가장 최근에 시작된 작업
+
+:point_right: __명령어 종류__
+
+`-ㅣ` : 프로세스 그룹 ID를 state 필드 앞에 출력
+
+`-n` : 프로세스 그룹 중에 대표 프로세스 ID를 출력
+
+`-p` : 각 프로세스 ID에 대해 한 행씩 출력
+
+ `command` : 지정한 명령어를 실행
 
 
 
