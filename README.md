@@ -4,6 +4,7 @@
 ---
 * 시스템의 상태를 전반적으로 가장 빠르게 파악 가능 (CPU, Memory, Process)
 * 옵션 없이 입력하면 interval 간격(기본 3초)으로 화면을 갱신하며 정보를 보여줌.
+
 :point_right: __실행화면__ 
 
 ![image](https://user-images.githubusercontent.com/104743690/171988366-66d73c56-0a4f-413a-8318-f5c84e638d5e.png)
