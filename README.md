@@ -34,11 +34,11 @@
 
 ` q ` : top명령종료
 
-
+---
 ### :heavy_check_mark: __ps : 프로세스 목록 보기__
 ---
 
-#### __ps \[option\]__
+#### ⛤ __ps \[option\]__
 
 
 :point_right:  __실행화면__ 
@@ -81,9 +81,10 @@
 
 ![image](https://user-images.githubusercontent.com/104743690/171989250-f38fabe8-de39-4f0c-a6ca-b67c2bbdb820.PNG)
 
+---
 ### :heavy_check_mark: job : 작업의 상태 표시
 ---
-#### __jobs \[option\] \[PID\]__
+#### ⛤ __jobs \[option\] \[PID\]__
 
 ##### **작업이 중지된 상태 or 백그라운드로 실행되는 작업을 보여주는 명령어**
 
@@ -116,10 +117,10 @@
  `command` : 지정한 명령어를 실행
 
 
-
+---
 ### :heavy_check_mark: kill : 프로세스 종료
 ---
-#### __kill \[option\] \[PID\]__
+#### ⛤ __kill \[option\] \[PID\]__
 
 :point_right: __명령어 종류__
 
@@ -135,7 +136,7 @@
 
 ![image](https://user-images.githubusercontent.com/104743690/171989377-53363431-29de-4781-9de2-c996f3c71c24.PNG)
 
-
+---
 ### :ballot_box_with_check: vim 에디터 매크로 사용법
 ---
 
