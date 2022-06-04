@@ -79,6 +79,19 @@
 
 `-x` : 터미널 제어 없이 프로세스 현황 보기 / 실시간으로 터미널에 프로세스가 어떻게 변하는지 보여줌
 
+![캡처](https://user-images.githubusercontent.com/104743690/171989250-f38fabe8-de39-4f0c-a6ca-b67c2bbdb820.PNG)
+
+
+
 ### :heavy_check_mark: kill : 프로세스 종료
 ---
 #### __kill \[option\] \[PID\]__
+
+:point_right: __명령어 종류__
+
+`-l` : 사용 가능한 시그널 목록을 출력
+`-1`(숫자) : 재실행(SIGHUP)
+`-9` : 강제종료(SIGKILL)
+`-15` : 정상 종료(SIGTERM)
+
+![캡처](https://user-images.githubusercontent.com/104743690/171989348-a856aad5-7003-442b-9d02-e43c89579016.PNG)
